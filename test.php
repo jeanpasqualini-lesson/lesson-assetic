@@ -1,6 +1,8 @@
 <?php
 
-require "../vendor/autoload.php";
+error_log('Symfony certification do not support the component', E_USER_DEPRECATED);
+
+require __DIR__."/vendor/autoload.php";
 
 $tests = array(
     new \Test\MainTest()

@@ -1,0 +1,22 @@
+{
+    "name": "jean-pasqualini-lesson/lesson-assetic",
+    "description": "lesson assetic",
+    "type": "projet",
+    "require": {
+        "kriswallsmith/assetic": "~1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini75@gmail.com"
+        }
+    ],
+  "autoload" :
+  {
+     "psr-4" :
+     {
+        "" : "./"
+     }
+  }
+}
